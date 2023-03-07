@@ -1,5 +1,58 @@
+:root{
+    --font-text: 'Pirata One', cursive;
+}
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+body{
+    background-color: #000;
+    font-family: var(--font-text);
+}
+.container{
+    width: 1360px;
+    margin: auto;
+    background: #000 url(../img/fundo.png) no-repeat center center fixed;
+    background-size: 80% 92%;
+    height: 900px;
+}
+header{
+    width: auto;
+    height: 25rem;
+}
+header .logo{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: auto;
+    height: 27rem;
+    padding-left: 36rem;
+}
+header .logo img{
+    width: 16rem;
+    height: 8rem;
+    transform: rotate(353deg);
+}
+main .container{
+    display: flex;
+    justify-content: center;
+}
+main .questions{
+    padding-top: 6rem ;
+}
+main .questions input{
+    width: 2rem;
+    height: 2rem;
+    background-color: white;
+}
+main .questions input[type="checkbox" i]:disabled {
+    background-color: green;
+}
+main .questions label{
+    padding: 1rem;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
 }
