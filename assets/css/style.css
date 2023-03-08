@@ -99,6 +99,10 @@ main .erro button{
     position: fixed;
     left: 37%;
 }
+main .erro a{
+    text-decoration: none;
+    color: #f8b931;
+}
 main .questions{
     padding-top: 2rem ;
 }
