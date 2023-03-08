@@ -10,25 +10,26 @@
 body{
     background-color: #000;
     font-family: var(--font-text);
+    background: #000 url(../img/fundo.png) no-repeat center fixed;
+    background-size: 130vw 128vh ;
+    overflow: hidden;
 }
 .container{
     width: 1360px;
     margin: auto;
-    background: #000 url(../img/fundo.png) no-repeat center center fixed;
-    background-size: 80% 92%;
     height: 900px;
 }
 header{
+    position: fixed;
     width: auto;
-    height: 25rem;
+    height: 23rem;
 }
 header .logo{
-    display: flex;
-    justify-content: center;
-    align-items: end;
+    position: fixed;
+    top: 30%;
     width: auto;
-    height: 27rem;
-    padding-left: 36rem;
+    height: 23rem;
+    padding-left: 52rem;
 }
 header .logo img{
     width: 16rem;
@@ -36,19 +37,57 @@ header .logo img{
     transform: rotate(353deg);
 }
 main .container{
+    position: fixed;
+    top: 50%;
+    left: 25%;
+}
+main .container_main{
+    position: fixed;
+    top: 50%;
+    left: 23%;
+}
+main .buttons{
+    position: fixed;
+    left: 13%;
+    margin-top: 3rem;
+}
+main .buttons button,
+main .cont_text button{
+    width: 15rem;
+    height: 5rem;
+    margin: 3rem;
+    background-color: #491313;
+    border: 1px solid #491313;
+    border-radius: 20px;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: var(--font-text);
+    color: #f8b931;
+}
+main .cont_text{
     display: flex;
-    justify-content: center;
+}
+main .cont_text h1{
+    width: 60%;
+    text-align: justify;
+    margin-top: 2rem;
+    margin-right: 0;
+}
+main .cont_text img{
+    width: 22%;
+    height: 22%;
+    margin-top: 2rem;
 }
 main .questions{
-    padding-top: 6rem ;
+    padding-top: 2rem ;
 }
 main .questions input{
     width: 2rem;
     height: 2rem;
     background-color: white;
 }
-main .questions input[type="checkbox" i]:disabled {
-    background-color: green;
+main .questions input[type="checkbox"] {
+    accent-color: green;
 }
 main .questions label{
     padding: 1rem;
