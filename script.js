@@ -14,17 +14,17 @@ const elementImg = document.querySelector('#imgAcerto');
 
 const imgs = [
     './assets/img/biblioteca.png',
-    './assets/acerto2.png',
-    './assets/acerto3.png',
-    './assets/acerto4.png',
-    './assets/acerto5.png'
+    './assets/img/cim.jpeg',
+    './assets/img/ginasio.jpeg',
+    './assets/img/sala08.jpeg',
+    './assets/img/hardware.jpeg'
 ];
 
-const senha1 = 'senha1';
-const senha2 = 'senha2';
-const senha3 = 'senha3';
-const senha4 = 'senha4';
-const senha5 = 'senha5';
+const senha1 = 'memoria';
+const senha2 = 'harddisk';
+const senha3 = 'internetdascoisas';
+const senha4 = 'html';
+const senha5 = 'css';
 
 function validResp(pergunta, resposta) {
     switch (pergunta) {

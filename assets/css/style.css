@@ -46,10 +46,17 @@ main .container_main{
     top: 50%;
     left: 23%;
 }
+main .questions_text{
+    position: fixed;
+    top: 52%;
+    left: 13%;
+    text-align: justify;
+    width: 60rem;
+}
 main .buttons{
     position: fixed;
-    left: 13%;
-    margin-top: 3rem;
+    top: 68%;
+    left: 11%;
 }
 main .buttons button,
 main .cont_text button{
@@ -77,6 +84,19 @@ main .cont_text img{
     width: 22%;
     height: 22%;
     margin-top: 2rem;
+}
+main .erro{
+    position: fixed;
+    left: 24%;
+}
+main .erro h1{
+    text-align: center;
+    width: 100%;
+    font-size: 4rem;
+}
+main .erro button{
+    position: fixed;
+    left: 37%;
 }
 main .questions{
     padding-top: 2rem ;
