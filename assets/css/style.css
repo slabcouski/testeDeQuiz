@@ -70,6 +70,7 @@ main .cont_text button{
     font-weight: bold;
     font-family: var(--font-text);
     color: #f8b931;
+    cursor: pointer;
 }
 main .cont_text{
     display: flex;
